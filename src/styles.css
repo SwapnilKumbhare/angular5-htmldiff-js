@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+.highlight-diff ins {
+    background-color: #ffff00;
+}
+
+.highlight-diff del {
+    background-color: #edb3b3;
+}

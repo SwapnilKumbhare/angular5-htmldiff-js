@@ -1,0 +1,91 @@
+<div>
+    <div id="oldHtml">
+        <!DOCTYPE html>
+        <html>
+
+        <head></head>
+
+        <body>
+            <table style="border-collapse: collapse; width: 302pt;" border="1" width="302pt" cellspacing="0" cellpadding="0">
+                <colgroup>
+                    <col style="mso-width-source: userset; mso-width-alt: 4821; width: 85pt;" width="113" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2218; width: 39pt;" width="52" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2773; width: 49pt;" width="65" />
+                    <col style="mso-width-source: userset; mso-width-alt: 7338; width: 129pt;" width="172" /> </colgroup>
+                <tbody>
+                    <tr style="height: 12.75pt;">
+                        <td class="xl65" style="height: 25.5pt; width: 400px; text-align: left;" colspan="4" rowspan="2" height="34">
+                            <p><strong><span class="llbrm-cstmFmtClsHlght-1">S<span class="llbrm-cstmFmtClsHlght-1">p<span class="llbrm-cstmFmtClsHlght-1">e<span class="llbrm-cstmFmtClsHlght-1">e<span class="llbrm-cstmFmtClsHlght-1">d<span class="llbrm-cstmFmtClsHlght-1">&nbsp;</span></span></span></span></span></span>Information</strong><br
+                                /> <span class="font5">817-867-7026, Fax 909-386-4246</span></p>
+                            <p><span class="font5 llbrm-cstmFmtClsHlght-1">E<span class="llbrm-cstmFmtClsHlght-1">m<span class="llbrm-cstmFmtClsHlght-1">a<span class="llbrm-cstmFmtClsHlght-1">i<span class="llbrm-cstmFmtClsHlght-1">l<span class="llbrm-cstmFmtClsHlght-1">:<span class="llbrm-cstmFmtClsHlght-1">&nbsp;<span class="llbrm-cstmFmtClsHlght-1">a<span class="llbrm-cstmFmtClsHlght-1">b<span class="llbrm-cstmFmtClsHlght-1">c<span class="llbrm-cstmFmtClsHlght-1">@<span class="llbrm-cstmFmtClsHlght-1">d<span class="llbrm-cstmFmtClsHlght-1">i<span class="llbrm-cstmFmtClsHlght-1">f<span class="llbrm-cstmFmtClsHlght-1">f<span class="llbrm-cstmFmtClsHlght-1">.<span class="llbrm-cstmFmtClsHlght-1">c<span class="llbrm-cstmFmtClsHlght-1">o<span class="llbrm-cstmFmtClsHlght-1">m</span></span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+
+        </html>
+    </div>
+
+    <div id="newHtml">
+        <!DOCTYPE html>
+        <html>
+
+        <head></head>
+
+        <body>
+            <table style="border-collapse: collapse; width: 302pt;" border="1" width="302pt" cellspacing="0" cellpadding="0">
+                <colgroup>
+                    <col style="mso-width-source: userset; mso-width-alt: 4821; width: 85pt;" width="113" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2218; width: 39pt;" width="52" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2773; width: 49pt;" width="65" />
+                    <col style="mso-width-source: userset; mso-width-alt: 7338; width: 129pt;" width="172" />
+                </colgroup>
+                <tbody>
+                    <tr style="height: 12.75pt;">
+                        <td class="xl65" style="height: 25.5pt; width: 302pt; text-align: left;" colspan="4" rowspan="2" width="402" height="34"><strong>Dispatcher Information</strong><br /> <span class="font5">817-867-7026, Fax 909-386-4246</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="border-collapse: collapse; width: 302pt;" border="1" width="302pt" cellspacing="0" cellpadding="0">
+                <colgroup>
+                    <col style="mso-width-source: userset; mso-width-alt: 4821; width: 85pt;" width="113" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2218; width: 39pt;" width="52" />
+                    <col style="mso-width-source: userset; mso-width-alt: 2773; width: 49pt;" width="65" />
+                    <col style="mso-width-source: userset; mso-width-alt: 7338; width: 129pt;" width="172" />
+                </colgroup>
+                <tbody>
+                    <tr style="height: 12.75pt;">
+                        <td class="xl65" style="height: 25.5pt; width: 302pt; text-align: left;" colspan="4" rowspan="2" width="402" height="34"><strong>Dispatcher Information</strong><br /> <span class="font5">817-867-7026, Fax 909-386-4346</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+
+        </html>
+
+    </div>
+    <div class="highlight-diff" *ngIf="showDiffFlg">
+        <app-htmldiff [html1]="oldHtml.innerHTML" [html2]="newHtml.innerHTML"></app-htmldiff>
+    </div>
+
+    <button class="btn" (click)="showDiff()">Show Difference</button>
+</div>
