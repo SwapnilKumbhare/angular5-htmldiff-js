@@ -1,0 +1,1 @@
+# angular5-htmldiff-js
